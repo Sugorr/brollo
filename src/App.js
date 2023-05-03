@@ -7,7 +7,11 @@ import NotFound from "./pages/NotFound";
 import Pricing from "./pages/Pricing";
 import WelcomePage from "./pages/WelcomePage";
 import Plans from "./pages/Plans";
+<<<<<<< HEAD
 import Navbar from "./components/Navbar";
+=======
+import Workspace from "./pages/Workspace";
+>>>>>>> a520cef8471187585c99d11a193c121e121d9db8
 
 function App() {
   return (
@@ -22,6 +26,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/welcome-page" element={<WelcomePage />} />
           <Route path="/plans" element={<Plans />} />
+          <Route path="/workspace" element={<Workspace />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
