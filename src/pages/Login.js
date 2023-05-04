@@ -1,4 +1,5 @@
 import LoginInput from '../components/login-components/LoginInput';
+import FacebookLogin from '../components/login-components/FacebookLogin';
 
 
 function Login() {
@@ -9,7 +10,7 @@ function Login() {
                 <LoginInput />
                 <p className='text-center mt-2'>or Login with</p>
                 <div className='text-center'>
-                    <a href='#/' className='px-4 fs-1'><i class="fa-brands fa-square-facebook"></i></a>
+                    <FacebookLogin />
                     <a href='#/' className='px-4 fs-1'><i class="fa-brands fa-google"></i></a>
                 </div >
             </div >

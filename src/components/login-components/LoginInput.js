@@ -27,6 +27,9 @@ function LoginInput() {
                     <button type='submit' className='btn btn-primary'>Login</button>
                 </form>
                 <button onClick={handleClick} className='btn btn-outline-warning bg-white text-dark mt-2'>No account yet? <strong className='text-danger'>Signup</strong> here</button>
+                <img className='brollo-login-image1' src='./images/Brollo-login-image1.png' alt='Brollo' />
+                <img className='brollo-login-image2' src='./images/Brollo-login-image2.png' alt='Brollo' />
+
             </div>
         </>
     );
