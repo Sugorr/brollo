@@ -1,0 +1,10 @@
+.login {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-page {
+    background: linear-gradient(180deg, rgba(130, 210, 236, 0) 26.56%, rgba(63, 193, 222, 0.26) 73.44%);
+    height: 90vh;
+}

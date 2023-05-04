@@ -71,6 +71,10 @@ function Signup() {
         setValues({ ...values, [e.target.name]: e.target.value })
     }
 
+    const handleClick = (e) => {
+        navigate("/Login");
+    }
+
     console.log(values);
     return (
         <>
@@ -88,6 +92,9 @@ function Signup() {
 
                     <button className="btn btn-primary d-grid mx-auto" type="submit">Submit</button>
                 </form>
+                <div className="text-center">
+                    <button onClick={handleClick} className='btn btn-outline-warning bg-white text-dark mt-2'>Already have an account? <strong className='text-danger'>Login</strong></button>
+                </div>
             </div>
 
         </>
