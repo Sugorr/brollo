@@ -14,14 +14,29 @@ function SignupInputs(props) {
         <div className="formInput">
             <label>{label}</label>
             <>
-                <input
-                    {...inputProps}
-                    onChange={onChange}
-                    onBlur={handleFocus}
-                    onFocus={() => inputProps.name === "confirmPassword" && setFocused(true)}
-                    focused={focused.toString()}
-                    type={showPassword ? "text" : "password"}
-                />
+                {type === "password" ? (
+                    <input
+                        {...inputProps}
+                        onChange={onChange}
+                        onBlur={handleFocus}
+                        onFocus={() =>
+                            inputProps.name === "confirmPassword" && setFocused(true)
+                        }
+                        focused={focused.toString()}
+                        type={showPassword ? "text" : "password"}
+                    />
+                ) : (
+                    <input
+                        {...inputProps}
+                        onChange={onChange}
+                        onBlur={handleFocus}
+                        onFocus={() =>
+                            inputProps.name === "confirmPassword" && setFocused(true)
+                        }
+                        focused={focused.toString()}
+                        type={type}
+                    />
+                )}
                 {type === "password" && (
                     <label>
                         <input
@@ -34,7 +49,7 @@ function SignupInputs(props) {
                 )}
             </>
             <span>{errorMessage}</span>
-        </div >
+        </div>
     );
 }
 
