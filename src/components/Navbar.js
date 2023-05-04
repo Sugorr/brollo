@@ -5,7 +5,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand fw-bold" href="#/"><span className="fw-bold fs-2 text-primary">B</span>rollo</a>
+                    <h3 className="navbar-brand fw-bold">Brollo</h3>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

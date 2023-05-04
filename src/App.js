@@ -7,11 +7,9 @@ import NotFound from "./pages/NotFound";
 import Pricing from "./pages/Pricing";
 import WelcomePage from "./pages/WelcomePage";
 import Plans from "./pages/Plans";
-<<<<<<< HEAD
 import Navbar from "./components/Navbar";
-=======
 import Workspace from "./pages/Workspace";
->>>>>>> a520cef8471187585c99d11a193c121e121d9db8
+
 
 function App() {
   return (
