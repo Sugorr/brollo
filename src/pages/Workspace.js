@@ -2,16 +2,16 @@ import React, { useState } from 'react'
 import CardTask from '../components/card-components/CardTask';
 
 function Workspace() {
-    const [tasks, setTasks] = useState([]);
+    const [cardTasks, setTasks] = useState([]);
 
-    function addNewTask(){
-        console.log('add tasks')
-    }
+    const addNewTask = () => {
+        setTasks([...cardTasks, <CardTask />]);
+    };
 
     return (
         <>  
             {/* workspace navbar */}
-            <div className='navbar bg-primary px-5'>
+            <div className='container-fluid navbar bg-primary px-5'>
                 <button className='btn btn-dark text-white'>Menu</button>
                 <input type='text' className='form-control w-25 bg-dark text-center text-white' style={{'font-weight': '700'}} value={'Sample Task Title'}/>
                 <div>
@@ -22,13 +22,11 @@ function Workspace() {
             </div>
             
             {/* workspace cards */}
-            <div className='fluid-container d-flex bg-secondary p-3 flex-start' style={{height: '100vh'}}>
+            <div className='d-flex bg-secondary p-3 flex-start' style={{height: '100vh', 'overflow-x': 'visible '}}>
                 <div className='d-flex bg-secondary p-3 flex-start'>
-                    <CardTask/>
-                    <CardTask/>
-                    <CardTask/>
-                </div>
-                <button className='btn btn-primary' onClick={addNewTask}>Add New Task</button>
+                    {cardTasks}
+                </div> 
+                <button className='btn btn-primary h-25' onClick={addNewTask}>Add New Task</button>
             </div>
         </>
     );

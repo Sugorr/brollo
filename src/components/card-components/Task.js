@@ -1,12 +1,12 @@
 
 
-function Task(){
+function Task(props){
     return(
         <>
             <div className='card'>
                 <div className='card-body p-2 fs-6 d-flex justify-content-between'>
-                    <div>Make a Prototype</div>
-                    <button className="p-0 m-0 btn">+</button>
+                <input type="text" className="form-control focusedInput" id="inputText" autofocus="autofocus"/>
+                    <button className="p-0 m-0 btn" onClick={props.onBtnClick}>x</button>
                 </div>
             </div>
         </>

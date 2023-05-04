@@ -7,7 +7,6 @@ import NotFound from "./pages/NotFound";
 import Pricing from "./pages/Pricing";
 import WelcomePage from "./pages/WelcomePage";
 import Plans from "./pages/Plans";
-
 import Navbar from "./components/Navbar";
 import Workspace from "./pages/Workspace";
 
@@ -17,7 +16,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<Features />} />
