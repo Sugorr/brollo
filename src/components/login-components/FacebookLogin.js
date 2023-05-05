@@ -10,7 +10,7 @@ function FacebookLogin() {
 
     const handleResolve = (response, data) => {
         console.log(response);
-        navigate('/Workspace');
+        navigate('/WelcomePage');
     }
 
     const handleReject = (err) => {

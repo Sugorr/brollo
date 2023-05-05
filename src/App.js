@@ -9,6 +9,7 @@ import WelcomePage from "./pages/WelcomePage";
 import Plans from "./pages/Plans";
 import Navbar from "./components/Navbar";
 import Workspace from "./pages/Workspace";
+import Dashboard from "./pages/Dashboard";
 
 
 
@@ -22,9 +23,10 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/welcome-page" element={<WelcomePage />} />
+          <Route path="/welcomePage" element={<WelcomePage />} />
           <Route path="/plans" element={<Plans />} />
           <Route path="/workspace" element={<Workspace />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

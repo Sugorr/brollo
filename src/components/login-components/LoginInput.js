@@ -9,7 +9,7 @@ function LoginInput() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        navigate("/Workspace");
+        navigate("/WelcomePage");
     }
 
     const handleClick = (e) => {
