@@ -13,7 +13,7 @@ function GoogleLogin() {
         console.log(provider, data);
         setUser(data);
         // history.push('/Features');
-        navigate('/Features');
+        navigate('/Workspace');
     }
 
     const handleReject = (err) => {
