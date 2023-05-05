@@ -24,7 +24,7 @@ function FacebookLogin() {
 
                 {profile ? <div>
                     <h1>{profile.name}</h1>
-                    <img className='rounded-circle' src={profile.picture.data.url} />
+                    <img className='rounded-circle' src={profile.picture.data.url} alt='profile' />
                 </div> : ""}
             </div>
         </>
