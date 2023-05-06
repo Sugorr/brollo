@@ -1,65 +1,10 @@
 .Project-Title {
-    margin-left: 20rem;
+    margin-left: 18rem;
     margin-top: 4.50rem;
     position: absolute;
     font-size: 1.50rem;
     font-weight: 500;
 }
-.First-Project-Body {
-    width: 400px;
-    height: 90px;
-    margin-left: 20rem;
+.Project-Container {
     margin-top: 8rem;
-    display: flex;
-    justify-content: space-between;
-}
-.Second-Project-Body {
-    width: 400px;
-    height: 90px;
-    margin-left: 20rem;
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-.fa-gear {
-    color: white;
-    font-size: 3rem;
-    margin-left: 25%;
-    margin-top: 19%;
-}
-.Database-Project {
-    position: absolute;
-    margin-top: 20px;
-    margin-right: 20px;
-    font-weight: 500;
-}
-.Project-Gear {
-    width: 100px;
-    height: 100%;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.First-Gear {
-    background-color: #7e5555;
-}
-.Second-Gear {
-    background-color: #4A86DF;
-}
-.Third-Gear {
-    background-color: #4AB848;
-}
-.Project-Plus {
-    border-style: solid;
-    border-color: #6EA7FA;
-    border-width: thin;
-    width: 100px;
-    height: 100%;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.fa-plus {
-    color: #6EA7FA;
-    font-size: 3rem;
-    margin-left: 30%;
-    margin-top: 19%;
 }

@@ -6,8 +6,8 @@ function Dashboard() {
     return (
         <>
           <Sidebar />
-          <Projects />  
           <Template />
+          <Projects />  
         </>
     );
 }

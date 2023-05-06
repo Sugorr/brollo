@@ -1,0 +1,33 @@
+.Project-Templates-Container {
+    width: 650px;
+    height: 100px;
+    margin-left: 48rem;
+    margin-top: 1.80rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Template-Box {
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    width: 300px;
+    height: 100%;
+}
+.Template-Box-Title {
+    display: flex;
+    justify-content: space-around;
+}
+.Template-Project {
+    font-weight: 500;
+}
+.fa-ellipsis {
+    margin-top: 5px;
+}
+.fa-circle {
+    margin-left: 10px;
+    color: #4AB848;
+}
+.Template-Date {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-weight: 500;
+}
