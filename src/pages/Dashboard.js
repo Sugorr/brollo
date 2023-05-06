@@ -1,11 +1,10 @@
 import React from 'react'
-
+import Sidebar from '../components/dashboard-components/Sidebar/Sidebar';
 function Dashboard() {
     return (
         <>
-            <h1>Plans</h1>
+          <Sidebar />  
         </>
     );
 }
-
 export default Dashboard;
