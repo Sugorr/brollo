@@ -101,3 +101,37 @@
     background: #3E89F9;
     border: #3E89F9 1px solid;
 }
+
+.integration-section{
+    color: white;
+    background: linear-gradient(84.49deg, #E283F1 18.02%, #E9713D 83.54%);
+}
+
+.card-integration{
+    color: #3e567b;
+    width: 256px;
+    margin: 2rem;
+}
+
+.card-integration > h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card-integration > h4 {
+    font-size: 1rem;
+}
+
+.card-integration > img{
+    width: 96px;
+}
+
+.browse-btn{
+    border: #3E89F9 2px solid;
+}
+
+.browse-btn:hover{
+    color: white;
+    background: #3E89F9;
+    border: #3E89F9 2px solid;
+}

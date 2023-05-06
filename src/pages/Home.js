@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 import sidePic from '../resources/subpics/home-side-pic.png'
+import cardIntegPic from '../resources/vectors/card-integ-logo.png'
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
                 <div className='left-section w-50 text-white p-5'>
                     <h1 className='mx-5 py-3'>Brollo brings all your  tasks, teammates, and tools together</h1>
                     <h3 className='mx-5 py-5'>Keep everything in the same place—even if your team isn’t.</h3>
-                    <form className='d-flex mx-5 gap-3'>
+                    <form className='d-flex align-items-center justify-content-start mx-5 gap-3'>
                         <Link to={'/signup'}><button className='btn btn-primary'>Sign Up For Free</button></Link>
                         <input className='form-control h-50 w-50' type='email' placeholder='Enter your email'/>
                     </form>
@@ -65,6 +66,43 @@ function Home() {
                         No need to start from scratch. Jump-start your workflow with a proven playbook designed for different teams. Customize it to make it yours.
                     </h4>
                     <button className='btn explore-cases h-50'>Explore all cases</button>
+                </div>
+            </div>
+
+            <div className='container-fluid p-5 d-flex integration-section flex-column'>
+                <h2 className='mx-5 px-5 fs-3 text-white'>POWERFUL WAYS TO GROW</h2>
+                <h2 className='mx-5 px-5 fs-1 text-white'>Do more with Brollo</h2>
+                <div className='d-flex align-items-center justify-content-center'>
+                    <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
+                        <img alt='card-integ.png' src={cardIntegPic}/>
+                        <h1>Integrations</h1>
+                        <h4>Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</h4>
+                        <button className='w-50 btn browse-btn'>Browse</button>
+                    </div>
+                    <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
+                        <img alt='card-integ.png' src={cardIntegPic}/>
+                        <h1>Integrations</h1>
+                        <h4>Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</h4>
+                        <button className='w-50 btn browse-btn'>Browse</button>
+                    </div>
+                    <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
+                        <img alt='card-integ.png' src={cardIntegPic}/>
+                        <h1>Integrations</h1>
+                        <h4>Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</h4>
+                        <button className='w-50 btn browse-btn'>Browse</button>
+                    </div>
+                    <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
+                        <img alt='card-integ.png' src={cardIntegPic}/>
+                        <h1>Integrations</h1>
+                        <h4>Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</h4>
+                        <button className='w-50 btn browse-btn'>Browse</button>
+                    </div>
+                    <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
+                        <img alt='card-integ.png' src={cardIntegPic}/>
+                        <h1>Integrations</h1>
+                        <h4>Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</h4>
+                        <button className='w-50 btn browse-btn'>Browse</button>
+                    </div>
                 </div>
             </div>
         </>
