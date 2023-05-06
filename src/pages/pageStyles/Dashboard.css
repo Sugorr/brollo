@@ -1,0 +1,13 @@
+.UserName {
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.80rem;
+    margin-left: 40rem;
+}
+.Welcome {
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.40rem;
+    margin-left: 36.50rem;
+    margin-top: 2rem;
+}
