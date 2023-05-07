@@ -177,9 +177,10 @@
 .carousel-points-container{
     position: absolute;
     top: 110%;
-    left: 130%;
+    left: 50%;
     display: flex;
     align-content: center;
+    justify-content: flex-end;
     transform: translate(-50%, -50%);
     width: 100%;
     display: flex;
@@ -188,7 +189,7 @@
 .carousel-points{
     border-radius: 25px;
     width: 14px !important;
-    height: 14px !important;
+    height: 24px !important;
     background-color: #2d323b;
     margin: 0.25rem;
     transition: 0.2s ease;
@@ -206,4 +207,37 @@
 
 .active-point{
     background-color: #3E89F9 !important;
+}
+
+.angle-btn button{
+    width: 50%;
+    border: 0;
+}
+
+.angle-btn button i{
+    font-size: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.angle-btn button:hover i{
+    color: #3E89F9;
+}
+
+
+.pricing-section{
+    margin-top: 35rem;
+}
+
+.pricing-section > h1 {
+    font-weight: 800 !important;
+}
+
+.pricing-section > h4 {
+    font-weight: 400 !important;
+}
+
+.box-price > span{
+    display: inherit !important;
 }
