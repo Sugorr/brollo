@@ -3,7 +3,7 @@ function Plus() {
     return(
         <>
             <div className="Plus-Container">
-                <i class="fa-solid fa-plus"></i>
+                <button className="btn add-project-btn"><i class="fa-solid fa-plus"></i></button>
             </div>
         </>
     )

@@ -103,14 +103,21 @@
 }
 
 .integration-section{
+    position: relative;
     color: white;
     background: linear-gradient(84.49deg, #E283F1 18.02%, #E9713D 83.54%);
+}
+
+.integration-section > h5 {
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .card-integration{
     color: #3e567b;
     width: 256px;
     margin: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
 }
 
 .card-integration > h1{
@@ -134,4 +141,69 @@
     color: white;
     background: #3E89F9;
     border: #3E89F9 2px solid;
+}
+
+.carousel-container{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 1280px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.carousel-container > p{
+    color: #2d323b;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.carousel-container > h1{
+    background: linear-gradient(84.49deg, #6237DA 18.02%, #E283F1 83.54%);
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 100%;
+    width: 75%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.carousel-points-container{
+    position: absolute;
+    top: 110%;
+    left: 130%;
+    display: flex;
+    align-content: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+}
+
+.carousel-points{
+    border-radius: 25px;
+    width: 14px !important;
+    height: 14px !important;
+    background-color: #2d323b;
+    margin: 0.25rem;
+    transition: 0.2s ease;
+}
+
+.carousel-points:hover{
+    background-color: #507dc2;
+}
+
+.active-point{
+    border-radius: 25px;
+    width: 100px !important;
+    background-color: #3E89F9;
+}
+
+.active-point{
+    background-color: #3E89F9 !important;
 }

@@ -44,6 +44,7 @@ function Home() {
                 </div>
             </div>
 
+            {/* workflow section */}
             <div className='container-fluid p-5 d-flex flex-column'>
                 <h5 className='mx-5 px-5 py-2'>Brollo in action</h5>
                 <h1 className='mx-5 px-5 py-2'>Workflows for any project, big or small</h1>
@@ -69,16 +70,11 @@ function Home() {
                 </div>
             </div>
 
+            {/* integration section */}
             <div className='container-fluid p-5 d-flex integration-section flex-column'>
-                <h2 className='mx-5 px-5 fs-3 text-white'>POWERFUL WAYS TO GROW</h2>
+                <h5 className='mx-5 px-5 text-white'>POWERFUL WAYS TO GROW</h5>
                 <h2 className='mx-5 px-5 fs-1 text-white'>Do more with Brollo</h2>
-                <div className='d-flex align-items-center justify-content-center'>
-                    <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
-                        <img alt='card-integ.png' src={cardIntegPic}/>
-                        <h1>Integrations</h1>
-                        <h4>Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</h4>
-                        <button className='w-50 btn browse-btn'>Browse</button>
-                    </div>
+                <div className='d-flex align-items-center justify-content-around flex-wrap'>
                     <div className='p-3 d-flex flex-column justify-content-start bg-white card-integration'>
                         <img alt='card-integ.png' src={cardIntegPic}/>
                         <h1>Integrations</h1>
@@ -104,7 +100,33 @@ function Home() {
                         <button className='w-50 btn browse-btn'>Browse</button>
                     </div>
                 </div>
+
+                {/* carousel section */}
+                <div className='container-fluid p-5 d-flex flex-column'>
+                    <div className='carousel-container'>
+                        <p>
+                            [Brollo is] great  for simplyfing complex processes.
+                            As a manager,
+                            I can chunk [processes] down into bite-sized pieces for my team and then delegate that out,
+                            but still keep a bird’s-eye view. 
+                        </p>
+                        <h1>
+                            75% of orgranizations report that Brollo delivers value to their business within 30days.
+                        </h1>
+                        <div className='carousel-points-container'>
+                            <button className='carousel-points btn first-point active-point'></button>
+                            <button className='carousel-points btn second-point'></button>
+                            <button className='carousel-points btn third-point'></button>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
+
+
+            <div></div>
+
         </>
     );
 }

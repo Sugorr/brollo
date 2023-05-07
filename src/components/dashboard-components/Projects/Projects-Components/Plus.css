@@ -8,9 +8,19 @@
     margin-left: 18rem;
     margin-top: 2.60rem;
 }
-.fa-plus {
+
+.add-project-btn{
+    width: 98px;
+    height: 90px;
+    padding: 1rem;
+}
+
+.add-project-btn:hover{
+    cursor: pointer;
+}
+
+.add-project-btn i{
     color: #6EA7FA;
     font-size: 3rem;
-    margin-left: 30%;
-    margin-top: 19%;
+    margin: 0;
 }
