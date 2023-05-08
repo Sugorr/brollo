@@ -11,3 +11,48 @@
     margin-left: 36.50rem;
     margin-top: 2rem;
 }
+@media screen and (max-width: 1189px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 30rem;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 26.50rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 994px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 25rem;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 21.50rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 893px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 20rem;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 16.50rem;
+        margin-top: 2rem;
+    }
+}

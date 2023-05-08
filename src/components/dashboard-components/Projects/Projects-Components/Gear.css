@@ -22,6 +22,8 @@
     width: 100px;
     height: 100%;
     border-radius: 20px;
+    z-index: 10;
+    cursor: pointer;
 }
 .First-Gear {
     background-color: #7e5555;
@@ -31,4 +33,50 @@
 }
 .Third-Gear {
     background-color: #4AB848;
+}
+@media screen and (max-width: 1189px) {
+    .Gear-Container {
+        width: 400px;
+        height: 90px;
+        margin-left: 5rem;
+        margin-top: 2.60rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1058px) {
+    .Gear-Container {
+        width: 400px;
+        height: 90px;
+        margin-left: 2.50rem;
+        margin-top: 2.60rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Project-Gear {
+        width: 100px;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 10;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 893px) {
+    .Gear-Container {
+        width: 400px;
+        height: 90px;
+        margin-left: 2px;
+        margin-top: 2.60rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Project-Gear {
+        width: 100px;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 10;
+        cursor: pointer;
+        margin-left: 30px;
+    }
 }

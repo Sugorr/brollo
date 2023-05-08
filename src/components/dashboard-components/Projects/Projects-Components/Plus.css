@@ -8,19 +8,53 @@
     margin-left: 18rem;
     margin-top: 2.60rem;
 }
-
 .add-project-btn{
     width: 98px;
     height: 90px;
     padding: 1rem;
-}
-
-.add-project-btn:hover{
+    z-index: 10;
     cursor: pointer;
+    position: absolute;
+    border-style: none;
 }
-
-.add-project-btn i{
+.fa-plus {
     color: #6EA7FA;
     font-size: 3rem;
     margin: 0;
+}
+@media screen and (max-width: 1189px) {
+    .Plus-Container {
+        border-style: solid;
+        border-color: #6EA7FA;
+        border-width: thin;
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+        margin-left: 5rem;
+        margin-top: 2.60rem;
+    }
+}
+@media screen and (max-width: 1058px) {
+    .Plus-Container {
+        border-style: solid;
+        border-color: #6EA7FA;
+        border-width: thin;
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+        margin-left: 4.70rem;
+        margin-top: 2.60rem;
+    }
+}
+@media screen and (max-width: 893px) {
+    .Plus-Container {
+        border-style: solid;
+        border-color: #6EA7FA;
+        border-width: thin;
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+        margin-left: 40px;
+        margin-top: 2.60rem;
+    }
 }

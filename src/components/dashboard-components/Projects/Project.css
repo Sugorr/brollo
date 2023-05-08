@@ -8,3 +8,21 @@
 .Project-Container {
     margin-top: 8rem;
 }
+@media screen and (max-width: 1189px) {
+    .Project-Title {
+        margin-left: 5rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 893px) {
+    .Project-Title {
+        margin-left: 40px;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}

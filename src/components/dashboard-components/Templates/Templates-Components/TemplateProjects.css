@@ -31,3 +31,91 @@
     margin-left: 45px;
     font-weight: 500;
 }
+@media screen and (max-width: 1189px) {
+    .Project-Templates-Container {
+        width: 650px;
+        height: 100px;
+        margin-left: 33rem;
+        margin-top: 1.80rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 1169px) {
+    .Project-Templates-Container {
+        width: 650px;
+        height: 100px;
+        margin-left: 29rem;
+        margin-top: 1.80rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Template-Box {
+        background-color: #D9D9D9;
+        border-radius: 15px;
+        width: 250px;
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1058px) {
+    .Project-Templates-Container {
+        width: 650px;
+        height: 100px;
+        margin-left: 25rem;
+        margin-top: 1.80rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 994px) {
+    .Project-Templates-Container {
+        width: 650px;
+        height: 100px;
+        margin-left: 22rem;
+        margin-top: 1.80rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Template-Box {
+        background-color: #D9D9D9;
+        border-radius: 15px;
+        width: 200px;
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 893px) {
+    .Project-Templates-Container {
+        width: 650px;
+        height: 100px;
+        margin-left: 20rem;
+        margin-top: 1.80rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Template-Box {
+        background-color: #D9D9D9;
+        border-radius: 15px;
+        width: 160px;
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .Project-Templates-Container {
+        width: 650px;
+        height: 100px;
+        margin-left: 16.50rem;
+        margin-top: 1.80rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Template-Box {
+        background-color: #D9D9D9;
+        border-radius: 15px;
+        width: 160px;
+        height: 100%;
+        margin-left: 10px;
+    }
+}

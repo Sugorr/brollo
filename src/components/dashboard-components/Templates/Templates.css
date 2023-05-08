@@ -9,3 +9,30 @@
     position: absolute;
     margin-top: 6.40rem;
 }
+@media screen and (max-width: 1189px) {
+    .Templates-Title {
+        margin-left: 34rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 1058px) {
+    .Templates-Title {
+        margin-left: 30rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 820px) {
+    .Templates-Title {
+        margin-left: 27rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}
