@@ -11,6 +11,10 @@
     font-size: 3rem;
     margin-left: 27%;
     margin-top: 19%;
+    transition: transform 0.5s ease;
+}
+.fa-gear:hover {
+    transform: rotate(360deg);
 }
 .Database-Project {
     position: absolute;
@@ -79,5 +83,23 @@
         z-index: 10;
         cursor: pointer;
         margin-left: 30px;
+    }
+}
+@media screen and (max-width: 775px) {
+    .Gear-Container {
+        width: 400px;
+        height: 90px;
+        margin-left: 2px;
+        margin-top: 2.60rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Project-Gear {
+        width: 100px;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 10;
+        cursor: pointer;
+        margin-left: 1px;
     }
 }

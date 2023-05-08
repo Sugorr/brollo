@@ -56,3 +56,52 @@
         margin-top: 2rem;
     }
 }
+@media screen and (max-width: 557px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 18rem;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 14rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 414px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 18rem;
+        width: 300px;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 14rem;
+        margin-top: 2rem;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 18rem;
+        width: 300px;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 14rem;
+        margin-top: 2rem;
+        width: 300px;
+    }
+}

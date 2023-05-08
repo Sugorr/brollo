@@ -45,8 +45,17 @@
         width: 100px;
         height: 90px;
         border-radius: 20px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    .SoloGear-Container {
+        width: 450px;
+        height: 90px;
         margin-left: 5rem;
-        margin-top: 2.60rem;
+        margin-top: 2.50rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3.40rem;
     }
 }
 @media screen and (max-width: 1058px) {
@@ -57,8 +66,17 @@
         width: 100px;
         height: 90px;
         border-radius: 20px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    .SoloGear-Container {
+        width: 450px;
+        height: 90px;
         margin-left: 4.70rem;
-        margin-top: 2.60rem;
+        margin-top: 2.50rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.80rem;
     }
 }
 @media screen and (max-width: 893px) {
@@ -69,7 +87,37 @@
         width: 100px;
         height: 90px;
         border-radius: 20px;
-        margin-left: 40px;
-        margin-top: 2.60rem;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    .SoloGear-Container {
+        width: 450px;
+        height: 90px;
+        margin-left: 2.40rem;
+        margin-top: 2.50rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.50rem;
+    }
+}
+@media screen and (max-width: 775px) {
+    .Plus-Container {
+        border-style: solid;
+        border-color: #6EA7FA;
+        border-width: thin;
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    .SoloGear-Container {
+        width: 450px;
+        height: 90px;
+        margin-left: 1.70rem;
+        margin-top: 2.50rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.50rem;
     }
 }

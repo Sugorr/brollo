@@ -18,6 +18,15 @@
         font-weight: 500;
     }
 }
+@media screen and (max-width: 1177px) {
+    .Templates-Container {
+        position: absolute;
+        margin-top: 6.40rem;
+        width: 1px;
+        margin-left: 1px;
+        background-color: aqua;
+    }
+}
 @media screen and (max-width: 1058px) {
     .Templates-Title {
         margin-left: 30rem;

@@ -17,6 +17,12 @@
         font-weight: 500;
     }
 }
+@media screen and (max-width: 1177px) {
+    .Project-Container {
+        margin-top: 8rem;
+        width: 1px;
+    }
+}
 @media screen and (max-width: 893px) {
     .Project-Title {
         margin-left: 40px;
