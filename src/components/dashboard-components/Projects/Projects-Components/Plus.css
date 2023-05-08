@@ -49,10 +49,31 @@
         margin-top: 1px;
     }
     .SoloGear-Container {
-        width: 450px;
+        width: 490px;
         height: 90px;
         margin-left: 5rem;
         margin-top: 2.50rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3.40rem;
+    }
+}
+@media screen and (max-width: 1169px) {
+    .Plus-Container {
+        border-style: solid;
+        border-color: #6EA7FA;
+        border-width: thin;
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    .SoloGear-Container {
+        width: 490px;
+        height: 90px;
+        margin-left: 4.85rem;
+        margin-top: 3rem;
         display: flex;
         flex-wrap: wrap;
         gap: 3.40rem;
@@ -67,13 +88,13 @@
         height: 90px;
         border-radius: 20px;
         margin-left: 1px;
-        margin-top: 1px;
+        margin-top: 24px;
     }
     .SoloGear-Container {
         width: 450px;
-        height: 90px;
-        margin-left: 4.70rem;
-        margin-top: 2.50rem;
+        height: 145px;
+        margin-left: 4.50rem;
+        margin-top: 2.40rem;
         display: flex;
         flex-wrap: wrap;
         gap: 1.80rem;
@@ -88,7 +109,7 @@
         height: 90px;
         border-radius: 20px;
         margin-left: 1px;
-        margin-top: 1px;
+        margin-top: 21px;
     }
     .SoloGear-Container {
         width: 450px;
@@ -108,16 +129,16 @@
         width: 100px;
         height: 90px;
         border-radius: 20px;
-        margin-left: 1px;
-        margin-top: 1px;
+        margin-left: 14px;
+        margin-top: 38px;
     }
     .SoloGear-Container {
-        width: 450px;
-        height: 90px;
-        margin-left: 1.70rem;
-        margin-top: 2.50rem;
+        width: 500px;
+        height: 150px;
+        margin-left: 10.25rem;
+        margin-top: 1rem;
         display: flex;
         flex-wrap: wrap;
-        gap: 1.50rem;
+        gap: 13px;
     }
 }

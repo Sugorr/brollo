@@ -11,6 +11,9 @@
     margin-left: 36.50rem;
     margin-top: 2rem;
 }
+.Dashboard-Projects {
+    position: absolute;
+}
 @media screen and (max-width: 1189px) {
     .UserName {
         position: absolute;
@@ -24,6 +27,9 @@
         font-size: 1.40rem;
         margin-left: 26.50rem;
         margin-top: 2rem;
+    }
+    .Dashboard-Projects {
+        position: absolute;
     }
 }
 @media screen and (max-width: 994px) {
@@ -54,6 +60,17 @@
         font-size: 1.40rem;
         margin-left: 16.50rem;
         margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 775px) {
+    .Dashboard-Template {
+        position: absolute;
+        margin-top: 35rem;
+        height: 650px;
+        width: 600px;
+    }
+    .Dashboard-Projects {
+        position: absolute;
     }
 }
 @media screen and (max-width: 557px) {

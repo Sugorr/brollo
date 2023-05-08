@@ -6,11 +6,12 @@ function Plus() {
     const addGear = () => {
         setPlus([...plus, `Plus ${plus.length + 1}`]);
     };
-    const removeGear = () => {
-        if (plus.length > 0) {
-            setPlus(plus.slice(0, -1));
-        }
-    };
+    // ADDING REMOVE JUST IN CASE
+    // const removeGear = () => {
+    //     if (plus.length > 0) {
+    //         setPlus(plus.slice(0, -1));
+    //     }
+    // };
     return(
         <>  
             <div className="SoloGear-Container">
