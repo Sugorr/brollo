@@ -1,7 +1,7 @@
 .formInput {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,10 +23,10 @@ label {
 }
 
 button {
-    width: 300px;
+    width: 350px;
 }
 
-.formInput > span {
+.formInput>span {
     font-size: 12px;
     padding: 3px;
     color: red;

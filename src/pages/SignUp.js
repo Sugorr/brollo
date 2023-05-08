@@ -1,6 +1,8 @@
 import { useState } from "react";
 import SignupInputs from "../components/signup-components/SignupInputs";
 import { useNavigate } from "react-router-dom";
+import FacebookLogin from '../components/login-components/FacebookLogin';
+import GoogleLogin from '../components/login-components/GoogleLogin';
 
 
 function Signup() {
@@ -78,9 +80,9 @@ function Signup() {
     console.log(values);
     return (
         <>
-            <div className="container py-5 signup-section">
+            <div className="container py-4 signup-section">
+                <h4 className="text-center">Register</h4>
                 <form onSubmit={handleSubmit}>
-                    <h1 className="text-center">SignUp</h1>
                     {inputs.map((inputs) => (
                         <SignupInputs
                             key={inputs.id}
@@ -93,8 +95,13 @@ function Signup() {
                     <button className="btn btn-primary d-grid mx-auto" type="submit">Submit</button>
                 </form>
                 <div className="text-center">
-                    <button onClick={handleClick} className='btn btn-outline-warning bg-white text-dark mt-2'>Already have an account? <strong className='text-danger'>Login</strong></button>
+                    <p className='text-dark mt-2'>Already have an account? <a href="#/" className='text-danger cursor-pointer' onClick={handleClick}>Login</a></p>
                 </div>
+                {/* <p className='text-center mt-2'>or Sign in with</p> */}
+                <div className='text-center'>
+                    <FacebookLogin />
+                    <GoogleLogin />
+                </div >
             </div>
 
         </>
