@@ -9,7 +9,7 @@ function FacebookLogin() {
     const navigate = useNavigate();
 
     const handleResolve = (response, data) => {
-        console.log(response);
+        console.log(response.data);
         navigate('/WelcomePage');
     }
 
