@@ -5,8 +5,8 @@
     width: 100px;
     height: 90px;
     border-radius: 20px;
-    margin-left: 18rem;
-    margin-top: 2.60rem;
+    margin-left: 1px;
+    z-index: 20;
 }
 .add-project-btn{
     width: 98px;
@@ -21,6 +21,21 @@
     color: #6EA7FA;
     font-size: 3rem;
     margin: 0;
+}
+.New-Project {
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.SoloGear-Container {
+    width: 450px;
+    height: 90px;
+    margin-left: 18rem;
+    margin-top: 2.50rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.40rem;
 }
 @media screen and (max-width: 1189px) {
     .Plus-Container {

@@ -11,6 +11,7 @@
     border-radius: 15px;
     width: 300px;
     height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Template-Box-Title {
     display: flex;
@@ -21,6 +22,7 @@
 }
 .fa-ellipsis {
     margin-top: 5px;
+    cursor: pointer;
 }
 .fa-circle {
     margin-left: 10px;
