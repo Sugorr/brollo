@@ -6,6 +6,8 @@ import PowerHouse from '../components/PowerHouse';
 import Workflow from '../components/Workflow';
 import Integration from '../components/Integration';
 import Pricing from '../components/Pricing';
+import GetStarted from '../components/GetStarted';
+import Footer from '../components/Footer';
 
 function Home() {
     return (
@@ -22,7 +24,10 @@ function Home() {
             <Integration />
             {/* pricing section */}
             <Pricing />
-
+            {/* get started section */}
+            <GetStarted />
+            {/* footer section */}
+            <Footer />
         </>
     );
 }
