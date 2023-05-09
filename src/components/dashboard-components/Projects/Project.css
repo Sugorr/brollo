@@ -32,3 +32,21 @@
         font-weight: 500;
     }
 }
+@media screen and (max-width: 775px) {
+    .Project-Title {
+        margin-left: 12rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 585px) {
+    .Project-Title {
+        margin-left: 6.50rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}

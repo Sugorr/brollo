@@ -6,7 +6,7 @@ function TemplateProjects() {
                 <div className="Template-Box">
                     <div className="Template-Box-Title">
                         <p className="Template-Project">Template Project</p>
-                        <i class="fa-solid fa-ellipsis"></i>
+                        <i className="fa-solid fa-ellipsis"></i>
                     </div>
                     <i class="fa-solid fa-circle"></i>
                     <p className="Template-Date">Dec 12</p>
@@ -14,9 +14,9 @@ function TemplateProjects() {
                 <div className="Template-Box">
                     <div className="Template-Box-Title">
                         <p className="Template-Project">Template Project</p>
-                        <i class="fa-solid fa-ellipsis"></i>
+                        <i className="fa-solid fa-ellipsis"></i>
                     </div>
-                    <i class="fa-solid fa-circle"></i>
+                    <i className="fa-solid fa-circle"></i>
                     <p className="Template-Date">Dec 12</p>
                 </div>
             </div>
