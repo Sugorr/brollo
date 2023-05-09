@@ -142,3 +142,24 @@
         gap: 13px;
     }
 }
+@media screen and (max-width: 585px) {
+    .Plus-Container {
+        border-style: solid;
+        border-color: #6EA7FA;
+        border-width: thin;
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+        margin-left: 14px;
+        margin-top: 38px;
+    }
+    .SoloGear-Container {
+        width: 500px;
+        height: 150px;
+        margin-left: 5.50rem;
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+}

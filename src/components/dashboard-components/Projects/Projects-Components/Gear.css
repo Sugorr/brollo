@@ -49,6 +49,15 @@
         justify-content: space-between;
     }
 }
+@media screen and (max-width: 1189px) {
+    .Database-Project {
+        position: absolute;
+        margin-top: 20px;
+        margin-right: 20px;
+        font-weight: 500;
+        width: 200px;
+    }
+}
 @media screen and (max-width: 1058px) {
     .Gear-Container {
         width: 400px;
@@ -90,6 +99,24 @@
         width: 400px;
         height: 90px;
         margin-left: 10rem;
+        margin-top: 2.60rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Project-Gear {
+        width: 100px;
+        height: 100%;
+        border-radius: 20px;
+        z-index: 10;
+        cursor: pointer;
+        margin-left: 1px;
+    }
+}
+@media screen and (max-width: 585px) {
+    .Gear-Container {
+        width: 400px;
+        height: 90px;
+        margin-left: 5rem;
         margin-top: 2.60rem;
         display: flex;
         justify-content: space-evenly;

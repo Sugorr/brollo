@@ -54,3 +54,12 @@
         font-weight: 500;
     }
 }
+@media screen and (max-width: 585px) {
+    .Templates-Title {
+        margin-left: 6rem;
+        margin-top: 4.50rem;
+        position: absolute;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+}

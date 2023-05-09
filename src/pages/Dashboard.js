@@ -9,11 +9,11 @@ function Dashboard() {
       <p className="UserName">Hi, UserName</p>
       <p className="Welcome">Welcome to your dashboard.</p>
       <Sidebar />
-      <div className="Dashboard-Template">
-        <Template />
-      </div>
       <div className="Dashboard-Projects">
         <Projects />
+      </div>
+      <div className="Dashboard-Template">
+        <Template />
       </div>
     </>
   );

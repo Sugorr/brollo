@@ -73,18 +73,33 @@
         position: absolute;
     }
 }
-@media screen and (max-width: 557px) {
+@media screen and (max-width: 768px) {
     .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
-        margin-left: 18rem;
+        margin-left: 16.50rem;
     }
     .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
-        margin-left: 14rem;
+        margin-left: 12.50rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 585px) {
+    .UserName {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.80rem;
+        margin-left: 11rem;
+    }
+    .Welcome {
+        position: absolute;
+        font-weight: 500;
+        font-size: 1.40rem;
+        margin-left: 7rem;
         margin-top: 2rem;
     }
 }
@@ -93,14 +108,14 @@
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
-        margin-left: 18rem;
+        margin-left: 12rem;
         width: 300px;
     }
     .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
-        margin-left: 14rem;
+        margin-left: 8rem;
         margin-top: 2rem;
         width: 300px;
     }
@@ -110,14 +125,14 @@
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
-        margin-left: 18rem;
+        margin-left: 11rem;
         width: 300px;
     }
     .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
-        margin-left: 14rem;
+        margin-left: 7rem;
         margin-top: 2rem;
         width: 300px;
     }
