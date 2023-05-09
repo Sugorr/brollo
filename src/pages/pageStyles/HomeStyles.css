@@ -51,10 +51,14 @@
 .board{
     background: #FFFFFF;
     border-radius: 15px 0px 0px 15px;
+    border: none;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
-    height: 140px;
-    padding: 15px;
+    height: 160px;
+    padding: 12px;
+    text-align: left;
+    transition: 0.9s ease;
+    border-left: 15px solid rgba(110, 157, 227, 0);
 }
 
 .board-selected{
@@ -74,7 +78,9 @@
     background-color: white;
     width: 100%;
     height: 100%;
+    padding: 3rem;
     border-radius: 20px;
+    transition: 0.5s ease;
 }
 
 .action-box{
@@ -187,6 +193,7 @@
 }
 
 .carousel-points{
+    position: relative;
     border-radius: 25px;
     width: 14px !important;
     height: 24px !important;
@@ -194,6 +201,8 @@
     margin: 0.25rem;
     transition: 0.2s ease;
 }
+
+
 
 .carousel-points:hover{
     background-color: #507dc2;
@@ -205,9 +214,18 @@
     background-color: #3E89F9;
 }
 
-.active-point{
-    background-color: #3E89F9 !important;
+.carousel-points > input{
+    position: absolute;
+    margin: 0;
+    width: 24px !important;
+    height: 24px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3E89F9;
+
 }
+
 
 .angle-btn button{
     width: 50%;
