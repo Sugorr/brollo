@@ -1,26 +1,26 @@
-.navbar {
+#Home-Navbar-Section .Home-Navbar {
     height: 3.10rem;
     position: fixed;
     width: 100%;
     z-index: 50;
 }
-.Home-Brollo {
+#Home-Navbar-Section .Home-Brollo {
     position: relative;
     bottom: 13px;
 }
-.Blue-b {
+#Home-Navbar-Section .Blue-Home-b {
     position: absolute;
     font-size: 3.30rem;
     color: #3E89F9;
 }
-.Rollo {
+#Home-Navbar-Section .Rollo-Home {
     position: relative;
-    left: 10px;
+    left: 32px;
     top: 22px;
     color: #1B2134;
     font-size: 1.80rem;
 }
-.Nav-Home {
+#Home-Navbar-Section .Nav-Home {
     color: #1B2134 !important;
     font-size: 1.45rem;
     font-weight: 600;
@@ -29,11 +29,11 @@
     left: 140px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Home:hover {
+#Home-Navbar-Section .Nav-Home:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
-.Nav-Features {
+#Home-Navbar-Section .Nav-Features {
     color: #1B2134 !important;
     font-size: 1.45rem;
     font-weight: 600;
@@ -42,11 +42,11 @@
     left: 160px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Features:hover {
+#Home-Navbar-Section .Nav-Features:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
-.Nav-Pricing {
+#Home-Navbar-Section .Nav-Pricing {
     color: #1B2134 !important;
     font-size: 1.45rem;
     font-weight: 600;
@@ -55,11 +55,11 @@
     left: 180px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Pricing:hover {
+#Home-Navbar-Section .Nav-Pricing:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
-.Nav-Plans {
+#Home-Navbar-Section .Nav-Plans {
     color: #1B2134 !important;
     font-size: 1.45rem;
     font-weight: 600;
@@ -68,11 +68,11 @@
     left: 200px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Plans:hover {
+#Home-Navbar-Section .Nav-Plans:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
-.Nav-Resources {
+#Home-Navbar-Section .Nav-Resources {
     color: #1B2134 !important;
     font-size: 1.45rem;
     font-weight: 600;
@@ -81,11 +81,11 @@
     left: 220px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Resources:hover {
+#Home-Navbar-Section .Nav-Resources:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
-.Nav-Login {
+#Home-Navbar-Section .Nav-Login {
     color: #1B2134 !important;
     font-size: 1.45rem;
     font-weight: 600;
@@ -95,16 +95,16 @@
     padding: 6px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Login:hover {
+#Home-Navbar-Section .Nav-Login:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
-.fa-user {
+#Home-Navbar-Section .fa-user {
     font-size: 1.20rem;
     position: relative;
     bottom: 2px;
 }
-.Nav-Get-Brollo {
+#Home-Navbar-Section .Nav-Get-Brollo {
     font-size: 1.45rem;
     font-weight: 600;
     position: relative;
@@ -115,12 +115,12 @@
     top: 3px;
     transition: all 0.2s ease-in-out;
 }
-.Nav-Get-Brollo:hover {
+#Home-Navbar-Section .Nav-Get-Brollo:hover {
     color: #3E89F9 !important;
     transform: scale(1.2);
 }
 @media screen and (max-width: 1189px) {
-    .Nav-Login {
+    #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -129,7 +129,7 @@
         left: 27rem;
         padding: 6px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: relative;
@@ -141,7 +141,7 @@
     }
 }
 @media screen and (max-width: 1161px) {
-    .Nav-Login {
+    #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -150,7 +150,7 @@
         left: 25rem;
         padding: 6px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: relative;
@@ -161,8 +161,29 @@
         top: 3px;
     }
 }
+@media screen and (max-width: 1168px) {
+    #Home-Navbar-Section .Nav-Login {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: relative;
+        top: 3px;
+        left: 23rem;
+        padding: 6px;
+    }
+    #Home-Navbar-Section .Nav-Get-Brollo {
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: relative;
+        color: #1B2134 !important;
+        width: 155px;
+        height: 50px;
+        left: 23rem;
+        top: 3px;
+    }
+}
 @media screen and (max-width: 1128px) {
-    .Nav-Login {
+    #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -171,7 +192,7 @@
         left: 21rem;
         padding: 6px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: relative;
@@ -183,7 +204,7 @@
     }
 } 
 @media screen and (max-width: 1062px) {
-    .Nav-Login {
+    #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -192,7 +213,7 @@
         left: 17rem;
         padding: 6px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: relative;
@@ -203,8 +224,29 @@
         top: 3px;
     }
 }
+@media screen and (max-width: 1067px) {
+    #Home-Navbar-Section .Nav-Login {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: relative;
+        top: 3px;
+        left: 16rem;
+        padding: 6px;
+    }
+    #Home-Navbar-Section .Nav-Get-Brollo {
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: relative;
+        color: #1B2134 !important;
+        width: 155px;
+        height: 50px;
+        left: 16rem;
+        top: 3px;
+    }
+}
 @media screen and (max-width: 1001px) {
-    .Nav-Login {
+    #Home-Navbar-Section.Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -213,7 +255,7 @@
         left: 14rem;
         padding: 6px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: relative;
@@ -225,7 +267,7 @@
     }
 }
 @media screen and (max-width: 1037px) {
-    .Nav-Home {
+    #Home-Navbar-Section .Nav-Home {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -233,7 +275,7 @@
         top: 3px;
         left: 110px;
     }
-    .Nav-Features {
+    #Home-Navbar-Section .Nav-Features {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -241,7 +283,7 @@
         top: 3px;
         left: 130px;
     }
-    .Nav-Pricing {
+    #Home-Navbar-Section .Nav-Pricing {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -249,7 +291,7 @@
         top: 3px;
         left: 150px;
     }
-    .Nav-Plans {
+    #Home-Navbar-Section .Nav-Plans {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -257,7 +299,7 @@
         top: 3px;
         left: 170px;
     }
-    .Nav-Resources {
+    #Home-Navbar-Section .Nav-Resources {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -267,23 +309,23 @@
     }
 }
 @media screen and (max-width: 991px) {
-    .Home-Brollo {
+    #Home-Navbar-Section .Home-Brollo {
         position: relative;
         bottom: 24px;
     }
-    .Blue-b {
+    #Home-Navbar-Section .Blue-b {
         position: absolute;
         font-size: 3.30rem;
         color: #3E89F9;
     }
-    .Rollo {
+    #Home-Navbar-Section .Rollo {
         position: relative;
         left: 10px;
         top: 22px;
         color: #1B2134;
         font-size: 1.80rem;
     }
-    .Nav-Home {
+    #Home-Navbar-Section .Nav-Home {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -291,7 +333,7 @@
         margin-top: 6px;
         margin-left: 30px;
     }
-    .Nav-Features {
+    #Home-Navbar-Section .Nav-Features {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -299,7 +341,7 @@
         margin-top: 6px;
         margin-left: 90px;
     }
-    .Nav-Pricing {
+    #Home-Navbar-Section .Nav-Pricing {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -307,7 +349,7 @@
         margin-top: 6px;
         margin-left: 170px;
     }
-    .Nav-Plans {
+    #Home-Navbar-Section .Nav-Plans {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -315,7 +357,7 @@
         margin-top: 6px;
         margin-left: 240px;
     }
-    .Nav-Resources {
+    #Home-Navbar-Section .Nav-Resources {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -323,7 +365,7 @@
         margin-top: 6px;
         margin-left: 290px;
     }
-    .Nav-Login {
+    #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -331,7 +373,7 @@
         padding: 6px;
         margin-left: 490px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: absolute;
@@ -343,7 +385,7 @@
     }
 }
 @media screen and (max-width: 930px) {
-    .Nav-Login {
+    #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
@@ -351,7 +393,7 @@
         padding: 6px;
         margin-left: 390px;
     }
-    .Nav-Get-Brollo {
+    #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
         position: absolute;

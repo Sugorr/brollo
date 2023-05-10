@@ -1,32 +1,43 @@
-.sidebar-btn {
+#Sidebar-Section .sidebar-btn {
     width: 50px;
     margin-top: 10px;
     margin-left: 10px;
 }
-.fa-bars {
+#Sidebar-Section .fa-bars {
     font-size: 1.20rem;
 }
-.offcanvas-title {
+#Sidebar-Section .offcanvas-title {
     font-size: 2.30rem;
 }
-.Blue-B {
-    position: absolute;
+#Sidebar-Section .SideBar-Blue-B {
+    position: relative;
     color: #3E89F9;
+    font-size: 3.30rem;
 }
-.Rollo {
-    margin-left: 22px;
+#Sidebar-Section .SideBar-Rollo {
+    left: 29px;
+    position: relative;
+    bottom: 62px;
 }
-.Side-Chest {
+#Sidebar-Section .SideBar-Close-Button {
+    position: relative;
+    bottom: 20px;
+}
+#Sidebar-Section .Side-Chest {
     font-size: 1.25rem;
     font-weight: 500;
 }
-.Side-Chest-Toggle {
+#Sidebar-Section .Side-Chest-Toggle {
     width: 110px;
     margin-right: 30px;
     font-size: 1.20rem;
     font-weight: 500;
 }
-.offcanvas {
+#Sidebar-Section .offcanvas {
     transition: transform 0.3s ease-in-out;
     width: 300px !important;
+}
+#Sidebar-Section .offcanvas-body {
+    position: relative;
+    bottom: 60px;
 }
