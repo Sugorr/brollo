@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import CardTask from '../components/card-components/CardTask';
 import DashboardNavbar from '../components/dashboard-components/Dashboard-Navbar/DashboardNavbar';
 import "./pageStyles/Workspace.css";
+import SecondNavbarWorkspace from '../components/workspace-component/SecondNavbarWorkspace';
 function Workspace() {
     const [cardTasks, setTasks] = useState([]);
     const addNewTask = () => {
@@ -10,6 +11,7 @@ function Workspace() {
     return (
         <>
             <DashboardNavbar />
+            <SecondNavbarWorkspace />
             {/* workspace navbar */}
             <div className='container-fluid navbar bg-primary px-5'>
                 <button className='btn btn-dark text-white'>Menu</button>
