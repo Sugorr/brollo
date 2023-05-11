@@ -10,6 +10,7 @@ import GetStarted from '../components/GetStarted';
 import Footer from '../components/Footer';
 
 function Home() {
+
     return (
         <>
             {/* navbar section */}

@@ -10,10 +10,30 @@ import Plans from "./pages/Plans";
 import Navbar from "./components/Navbar";
 import Workspace from "./pages/Workspace";
 import Dashboard from "./pages/Dashboard";
+import { useEffect } from "react";
+import axios from 'axios';
 
 
 
 function App() {
+  useEffect(() => {
+    const token = localStorage.getItem('userToken');
+    if (token) {
+      console.log('user is Logged in');
+      axios.get('http://127.0.0.1:8000/api/user', {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      }).then(response => {
+        console.log(response.data);
+      }).catch(err => {
+        console.log(err);
+      })
+    } else {
+      console.log('user is NOT logged in');
+    }
+  }, []);
+
   return (
     <>
       <BrowserRouter>

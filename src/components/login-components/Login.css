@@ -8,30 +8,3 @@
     background: linear-gradient(180deg, rgba(130, 210, 236, 0) 26.56%, rgba(63, 193, 222, 0.26) 73.44%);
     height: 90vh;
 }
-
-.brollo-fb {
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.google-login {
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.brollo-login-image1 {
-    position: absolute;
-    left: 20px;
-    z-index: -100;
-    width: 42vh;
-}
-
-.brollo-login-image2 {
-    position: absolute;
-    right: 20px;
-    bottom: 100px;
-    z-index: -100;
-    width: 60vh;
-}
