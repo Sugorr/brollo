@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import CardTask from '../components/card-components/CardTask';
-
+import DashboardNavbar from '../components/dashboard-components/Dashboard-Navbar/DashboardNavbar';
+import "./pageStyles/Workspace.css";
 function Workspace() {
     const [cardTasks, setTasks] = useState([]);
-
     const addNewTask = () => {
         setTasks([...cardTasks, <CardTask />]);
     };
-
     return (
         <>
+            <DashboardNavbar />
             {/* workspace navbar */}
             <div className='container-fluid navbar bg-primary px-5'>
                 <button className='btn btn-dark text-white'>Menu</button>
@@ -21,7 +21,6 @@ function Workspace() {
                     <button className='btn btn-primary h-25' onClick={addNewTask}>Add New Task</button>
                 </div>
             </div>
-
             {/* workspace cards */}
             <div className='d-flex bg-secondary p-3 flex-start' style={{ height: '100vh', 'overflow-x': 'visible ' }}>
                 <div className='d-flex bg-secondary p-3 flex-start'>
@@ -32,5 +31,4 @@ function Workspace() {
         </>
     );
 }
-
 export default Workspace;

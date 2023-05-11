@@ -33,6 +33,10 @@
     font-size: 1.20rem;
     font-weight: 500;
     margin-left: 30px;
+    transition: all 0.2s ease-in-out;
+}
+#Dashboard-Navbar-Section .dropdown:hover {
+    color: #3E89F9;
 }
 #Dashboard-Navbar-Section .Navbar-Item {
     display: flex;
@@ -49,6 +53,10 @@
 #Dashboard-Navbar-Section .Navbar-Create {
     position: relative;
     left: 25px;
+    transition: all 0.2s ease-in-out;
+}
+#Dashboard-Navbar-Section .Navbar-Create:hover {
+    color: #3E89F9;
 }
 #Dashboard-Navbar-Section .form-control {
     width: 200px;
@@ -84,4 +92,55 @@
     font-size: 1.20rem;
     z-index: 10;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#Dashboard-Navbar-Section .Navbar-Icons:hover {
+    color: #3E89F9;
+}
+@media screen and (max-width: 1189px) {
+    #Dashboard-Navbar-Section .Navbar-Search {
+        position: relative;
+        right: 300px;
+    }
+    #Dashboard-Navbar-Section .Navbar-Icons-Container {
+        display: flex;
+        position: relative;
+        left: 100px;
+        top: 6px;
+    }
+}
+@media screen and (max-width: 1127px) {
+    #Dashboard-Navbar-Section .Navbar-Search {
+        position: relative;
+        right: 350px;
+    }
+    #Dashboard-Navbar-Section .Navbar-Icons-Container {
+        display: flex;
+        position: relative;
+        left: 50px;
+        top: 6px;
+    }
+}
+@media screen and (max-width: 1077px) {
+    #Dashboard-Navbar-Section .dropdown {
+        z-index: 10;
+        font-size: 1.20rem;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 1022px) {
+    #Dashboard-Navbar-Section .dropdown {
+        z-index: 10;
+        font-size: 1.20rem;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    #Dashboard-Navbar-Section .form-control {
+        width: 150px;
+        position: relative;
+        bottom: 14px;
+        left: 400px;
+        border-style: none;
+    }
 }
