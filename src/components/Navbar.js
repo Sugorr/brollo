@@ -31,14 +31,16 @@ function Navbar() {
                                 <Link to="/plans" className="Nav-Resources nav-item text-decoration-none 
                                 text-secondary">Resources</Link>
                             </li>
-                            <li className="nav-item">    
-                                <Link to="login" className="Nav-Login text-decoration-none">
-                                <i class="fa-solid fa-user"></i>Login</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/" className="Nav-Get-Brollo text-decoration-none">
-                                Get Brollo</Link>
-                            </li>
+                            <div className="Login-Get-Brollo">
+                                <li className="nav-item">    
+                                    <Link to="login" className="Nav-Login text-decoration-none">
+                                    <i class="fa-solid fa-user"></i>Login</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/" className="Nav-Get-Brollo text-decoration-none">
+                                    Get Brollo</Link>
+                                </li>
+                            </div>
                         </ul>
                     </div>
                 </nav>

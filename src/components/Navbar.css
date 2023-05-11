@@ -31,7 +31,6 @@
 }
 #Home-Navbar-Section .Nav-Home:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
 }
 #Home-Navbar-Section .Nav-Features {
     color: #1B2134 !important;
@@ -44,7 +43,6 @@
 }
 #Home-Navbar-Section .Nav-Features:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
 }
 #Home-Navbar-Section .Nav-Pricing {
     color: #1B2134 !important;
@@ -57,7 +55,6 @@
 }
 #Home-Navbar-Section .Nav-Pricing:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
 }
 #Home-Navbar-Section .Nav-Plans {
     color: #1B2134 !important;
@@ -70,7 +67,6 @@
 }
 #Home-Navbar-Section .Nav-Plans:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
 }
 #Home-Navbar-Section .Nav-Resources {
     color: #1B2134 !important;
@@ -80,10 +76,10 @@
     top: 3px;
     left: 220px;
     transition: all 0.2s ease-in-out;
+    z-index: 10;
 }
 #Home-Navbar-Section .Nav-Resources:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
 }
 #Home-Navbar-Section .Nav-Login {
     color: #1B2134 !important;
@@ -97,7 +93,6 @@
 }
 #Home-Navbar-Section .Nav-Login:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
 }
 #Home-Navbar-Section .fa-user {
     font-size: 1.20rem;
@@ -117,7 +112,9 @@
 }
 #Home-Navbar-Section .Nav-Get-Brollo:hover {
     color: #3E89F9 !important;
-    transform: scale(1.2);
+}
+#Home-Navbar-Section .Login-Get-Brollo {
+    display: flex;
 }
 @media screen and (max-width: 1189px) {
     #Home-Navbar-Section .Nav-Login {
@@ -245,27 +242,6 @@
         top: 3px;
     }
 }
-@media screen and (max-width: 1001px) {
-    #Home-Navbar-Section.Nav-Login {
-        color: #1B2134 !important;
-        font-size: 1.45rem;
-        font-weight: 600;
-        position: relative;
-        top: 3px;
-        left: 14rem;
-        padding: 6px;
-    }
-    #Home-Navbar-Section .Nav-Get-Brollo {
-        font-size: 1.45rem;
-        font-weight: 600;
-        position: relative;
-        color: #1B2134 !important;
-        width: 155px;
-        height: 50px;
-        left: 14rem;
-        top: 3px;
-    }
-}
 @media screen and (max-width: 1037px) {
     #Home-Navbar-Section .Nav-Home {
         color: #1B2134 !important;
@@ -308,10 +284,10 @@
         left: 190px;
     }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1001px) {
     #Home-Navbar-Section .Home-Brollo {
         position: relative;
-        bottom: 24px;
+        bottom: 13px;
     }
     #Home-Navbar-Section .Blue-b {
         position: absolute;
@@ -369,38 +345,115 @@
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
-        position: absolute;
+        position: relative;
+        top: 3px;
+        left: 16rem;
         padding: 6px;
-        margin-left: 490px;
     }
-    #Home-Navbar-Section .Nav-Get-Brollo {
+     #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
-        position: absolute;
+        position: relative;
         color: #1B2134 !important;
         width: 155px;
         height: 50px;
-        padding: 6px;
-        margin-left: 570px;
+        left: 16rem;
+        top: 3px;
+    }
+    #Home-Navbar-Section .Login-Get-Brollo {
+        display: flex;
+        position: relative;
+        left: 360px;
     }
 }
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 991px) {
+    #Home-Navbar-Section .Home-Brollo {
+        position: relative;
+        bottom: 37px;
+    }
+    #Home-Navbar-Section .Blue-b {
+        position: absolute;
+        font-size: 3.30rem;
+        color: #3E89F9;
+    }
+    #Home-Navbar-Section .Rollo {
+        position: relative;
+        left: 10px;
+        top: 22px;
+        color: #1B2134;
+        font-size: 1.80rem;
+    }
+    #Home-Navbar-Section .Nav-Home {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 30px;
+    }
+    #Home-Navbar-Section .Nav-Features {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 90px;
+    }
+    #Home-Navbar-Section .Nav-Pricing {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 170px;
+    }
+    #Home-Navbar-Section .Nav-Plans {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 240px;
+    }
+    #Home-Navbar-Section .Nav-Resources {
+        color: #1B2134 !important;
+        font-size: 1.45rem;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 290px;
+    }
     #Home-Navbar-Section .Nav-Login {
         color: #1B2134 !important;
         font-size: 1.45rem;
         font-weight: 600;
-        position: absolute;
+        position: relative;
+        top: 3px;
+        left: 16rem;
         padding: 6px;
-        margin-left: 390px;
     }
-    #Home-Navbar-Section .Nav-Get-Brollo {
+     #Home-Navbar-Section .Nav-Get-Brollo {
         font-size: 1.45rem;
         font-weight: 600;
-        position: absolute;
+        position: relative;
         color: #1B2134 !important;
         width: 155px;
         height: 50px;
-        padding: 6px;
-        margin-left: 470px;
+        left: 16rem;
+        top: 3px;
+    }
+    #Home-Navbar-Section .Login-Get-Brollo {
+        display: flex;
+        position: relative;
+        left: 360px;
+        bottom: 41px;
+    }
+}
+@media screen and (max-width: 930px) {
+    #Home-Navbar-Section .Login-Get-Brollo {
+        display: flex;
+        position: relative;
+        left: 320px;
+        bottom: 41px;
     }
 }
