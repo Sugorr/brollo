@@ -8,6 +8,7 @@
 #Task-Cards-Section .Task-Cards-Content {
     background-color: wheat;
     border-radius: 10px;
+    padding: 10px;
 }
 #Task-Cards-Section .Add-Remove-Task {
     display: flex;
