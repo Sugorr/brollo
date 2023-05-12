@@ -2,3 +2,14 @@
     position: relative;
     top: 30px;
 }
+#Workspace-Section .Brollo-Background-Image {
+    position: relative;
+    z-index: -1;
+    bottom: 40px;
+    height: 0px;
+}
+#Workspace-Section .Brollo-Background-Image img {
+    width: 100%;
+    height: 830px;
+    position: fixed;
+}

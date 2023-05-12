@@ -26,7 +26,7 @@ function TaskCards() {
                             <i class="fa-solid fa-plus"></i>Add a card</p>
                         </div>
                         <div className="Remove-Task">
-                            <p onClick={removeTask}>Remove</p>
+                            <p className="Remove-Card" onClick={removeTask}>Remove</p>
                         </div>
                     </div>
                 </div>

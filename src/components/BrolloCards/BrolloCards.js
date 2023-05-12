@@ -21,7 +21,7 @@ const BrolloCards = () => {
                     <div className="Add-Remove-Cards">
                         <p onClick={addCards} className="Add-Another-List">
                         <i class="fa-solid fa-plus"></i>Add another list</p>
-                        <p onClick={removeCards} className="Remove-List">REMOVE CARDS</p>
+                        <p onClick={removeCards} className="Remove-List">Remove card list</p>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@
 }
 #Brollo-Cards-Section .Add-Remove-Cards p {
     margin-left: 15px;
-    color: grey;
+    color: ghostwhite;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -16,5 +16,5 @@
 }
 #Brollo-Cards-Section .fa-plus {
     font-size: 18px;
-    color: grey;
+    color: ghostwhite;
 }
