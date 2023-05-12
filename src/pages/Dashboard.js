@@ -8,12 +8,16 @@ function Dashboard() {
     <>
       {/* <p className="UserName">Hi, UserName</p> */}
       {/* <p className="Welcome">Welcome to your dashboard.</p> */}
-      <DashboardNavbar />
-      <div className="Dashboard-Projects">
-        <Projects />
-      </div>
-      <div className="Dashboard-Template">
-        <Template />
+      <div id="Dashboard-Section">
+        <div className="DashBoard-Navbar">
+          <DashboardNavbar />
+        </div>
+        <div className="Dashboard-Projects">
+          <Projects />
+        </div>
+        <div className="Dashboard-Template">
+          <Template />
+        </div>
       </div>
     </>
   );

@@ -1,0 +1,19 @@
+#Brollo-Cards-Section .Brollo-Cards-Container {
+    display: flex;
+    position: relative;
+    top: 129px;
+}
+#Brollo-Cards-Section .Add-Remove-Cards {
+    display: flex;
+}
+#Brollo-Cards-Section .Add-Remove-Cards p {
+    margin-left: 15px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#Brollo-Cards-Section .fa-plus {
+    font-size: 18px;
+    color: grey;
+}

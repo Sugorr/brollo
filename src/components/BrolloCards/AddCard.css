@@ -1,0 +1,9 @@
+#Add-Card-Section .Add-Card-Container {
+    width: 275px;
+    height: 40px;
+    margin-left: 7.49px;
+    margin-top: 10px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+}

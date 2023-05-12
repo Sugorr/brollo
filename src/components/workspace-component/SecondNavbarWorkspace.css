@@ -1,9 +1,15 @@
+#Second-Navbar-Workspace-Section {
+    position: fixed;
+    width: 100%;
+    z-index: 19;
+    height: 0px;
+}
 #Second-Navbar-Workspace-Section .Second-Navbar-Workspace-Container {
     width: 100%;
     height: 50px;
     background-color: ghostwhite;
     position: relative;
-    bottom: 10px;
+    top: 20px;
 }
 #Second-Navbar-Workspace-Section .Workspace-Navbar-Items {
     display: flex;

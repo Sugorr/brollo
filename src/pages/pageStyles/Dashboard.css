@@ -1,45 +1,49 @@
-.UserName {
+#Dashboard-Section .UserName {
     position: absolute;
     font-weight: 500;
     font-size: 1.80rem;
     margin-left: 40rem;
 }
-.Welcome {
+#Dashboard-Section .Welcome {
     position: absolute;
     font-weight: 500;
     font-size: 1.40rem;
     margin-left: 36.50rem;
     margin-top: 2rem;
 }
-.Dashboard-Projects {
+#Dashboard-Section .Dashboard-Projects {
     position: absolute;
 }
+#Dashboard-Section .DashBoard-Navbar {
+    position: relative;
+    top: 30px;
+}
 @media screen and (max-width: 1189px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 30rem;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
         margin-left: 26.50rem;
         margin-top: 2rem;
     }
-    .Dashboard-Projects {
+    #Dashboard-Section .Dashboard-Projects {
         position: absolute;
     }
 }
 @media screen and (max-width: 994px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 25rem;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
@@ -48,13 +52,13 @@
     }
 }
 @media screen and (max-width: 893px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 20rem;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
@@ -63,24 +67,24 @@
     }
 }
 @media screen and (max-width: 775px) {
-    .Dashboard-Template {
+    #Dashboard-Section .Dashboard-Template {
         position: absolute;
         margin-top: 35rem;
         height: 650px;
         width: 600px;
     }
-    .Dashboard-Projects {
+    #Dashboard-Section .Dashboard-Projects {
         position: absolute;
     }
 }
 @media screen and (max-width: 768px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 16.50rem;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
@@ -89,13 +93,13 @@
     }
 }
 @media screen and (max-width: 585px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 11rem;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
@@ -104,14 +108,14 @@
     }
 }
 @media screen and (max-width: 414px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 12rem;
         width: 300px;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
@@ -121,14 +125,14 @@
     }
 }
 @media screen and (max-width: 375px) {
-    .UserName {
+    #Dashboard-Section .UserName {
         position: absolute;
         font-weight: 500;
         font-size: 1.80rem;
         margin-left: 11rem;
         width: 300px;
     }
-    .Welcome {
+    #Dashboard-Section .Welcome {
         position: absolute;
         font-weight: 500;
         font-size: 1.40rem;
