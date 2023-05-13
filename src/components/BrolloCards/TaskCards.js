@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./TaskCards.css";
 import AddCard from "./AddCard";
 function TaskCards() {
-    const [task, setTask] = useState(["PlusTask"]);
+    const [task, setTask] = useState(["Add a card"]);
     const addTask = () => {
-        setTask([...task, `PlusTask ${task.length + 1}`]);
+        setTask([...task, `Add a card ${task.length + 1}`]);
     };
     const removeTask = () => {
         if (task.length > 0) {
@@ -24,8 +24,12 @@ function TaskCards() {
             <div id="Task-Cards-Section" onDragOver={handleDragOver} onDrop={handleDrop}>
                 <div className="Task-Cards-Container">
                     <div className="Task-Cards-Content">
-                        {task.map(task => (
-                            <AddCard key={task}/>
+                        {task.map((_, index) => (
+                            <AddCard key={index} word={task[index]} setWord={(newWord) => {
+                                const newTask = [...task];
+                                newTask[index] = newWord;
+                                setTask(newTask);
+                            }}/>
                         ))}
                     </div>
                     <div className="Add-Remove-Task">

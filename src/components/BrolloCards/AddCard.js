@@ -1,8 +1,7 @@
 import "./AddCard.css";
 import React, { useState } from 'react';
-function AddCard() {
+function AddCard({ word, setWord }) {
     const [editing, setEditing] = useState(false);
-    const [word, setWord] = useState('Example word');
     const handleInputChange = (event) => {
         setWord(event.target.value);
     };
