@@ -11,9 +11,17 @@ function TaskCards() {
             setTask(task.slice(0, -1));
         }
     };
+    const handleDragOver = (event) => {
+        event.preventDefault();
+    };
+    const handleDrop = (event) => {
+        event.preventDefault();
+        const data = JSON.parse(event.dataTransfer.getData("text/plain"));
+        setTask([...task, data.word]);
+    };
     return (
         <>
-            <div id="Task-Cards-Section">
+            <div id="Task-Cards-Section" onDragOver={handleDragOver} onDrop={handleDrop}>
                 <div className="Task-Cards-Container">
                     <div className="Task-Cards-Content">
                         {task.map(task => (
@@ -23,7 +31,8 @@ function TaskCards() {
                     <div className="Add-Remove-Task">
                         <div className="Add-Task">
                             <p onClick={addTask} className="Add-Card">
-                            <i class="fa-solid fa-plus"></i>Add a card</p>
+                                <i class="fa-solid fa-plus"></i>Add a card
+                            </p>
                         </div>
                         <div className="Remove-Task">
                             <p className="Remove-Card" onClick={removeTask}>Remove</p>

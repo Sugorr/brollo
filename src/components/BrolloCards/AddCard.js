@@ -14,9 +14,12 @@ function AddCard() {
     const handleEditClick = () => {
         setEditing(true);
     };
+    const handleDragStart = (event) => {
+        event.dataTransfer.setData("text/plain", JSON.stringify({ word }));
+    };
     return (
         <>
-            <div id="Add-Card-Section">
+            <div id="Add-Card-Section" draggable onDragStart={handleDragStart}>
                 <div className="Add-Card-Container">
                     <div className="brollo-card">
                         {editing ? (
