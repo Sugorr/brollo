@@ -17,9 +17,15 @@ function AddCard() {
     const handleDragStart = (event) => {
         event.dataTransfer.setData("text/plain", JSON.stringify({ word }));
     };
+    const handleDragEnd = (event) => {
+        const dropzone = event.target.closest('.Task-Cards-Content');
+        if (dropzone) {
+          event.target.parentNode.removeChild(event.target);
+        }
+    };
     return (
         <>
-            <div id="Add-Card-Section" draggable onDragStart={handleDragStart}>
+            <div id="Add-Card-Section" draggable onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
                 <div className="Add-Card-Container">
                     <div className="brollo-card">
                         {editing ? (
