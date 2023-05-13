@@ -14,7 +14,16 @@
     cursor: pointer;
     height: 25px;
 }
-#Brollo-Cards-Section .fa-plus {
-    font-size: 18px;
-    color: ghostwhite;
+#Brollo-Cards-Section .Add-Another-List {
+    margin-left: 22px;
+    margin-top: 30px;
+}
+#Brollo-Cards-Section .Add-Another-List input {
+    height: 50px;
+}
+#Brollo-Cards-Section .Add-Another-List button {
+    height: 50px;
+}
+#Brollo-Cards-Section .Remove-List {
+    margin-top: 30px;
 }

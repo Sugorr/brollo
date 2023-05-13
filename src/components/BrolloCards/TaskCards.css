@@ -5,14 +5,30 @@
     margin-left: 20px;
     display: inline-block;
 }
+#Task-Cards-Section .Task-Cards-Header {
+    color: gray;
+    font-size: 1.50rem;
+    font-weight: 500;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+}
+#Task-Cards-Section .Task-Cards-Header p {
+    margin-left: 8px;
+}
 #Task-Cards-Section .Task-Cards-Content {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    position: relative;
+    bottom: 35px;
 }
 #Task-Cards-Section .Add-Remove-Task {
     display: flex;
     gap: 10px;
+    position: relative;
+    bottom: 35px;
 }
 #Task-Cards-Section .Add-Task {
     cursor: pointer;

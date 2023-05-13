@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./TaskCards.css";
 import AddCard from "./AddCard";
-function TaskCards() {
+function TaskCards({ title }) {
     const [task, setTask] = useState(["Add a card"]);
     const addTask = () => {
         setTask([...task, `Add a card ${task.length + 1}`]);
@@ -23,6 +23,9 @@ function TaskCards() {
         <>
             <div id="Task-Cards-Section" onDragOver={handleDragOver} onDrop={handleDrop}>
                 <div className="Task-Cards-Container">
+                    <div className="Task-Cards-Header">
+                        <p>{title}</p>
+                    </div>
                     <div className="Task-Cards-Content">
                         {task.map((_, index) => (
                             <AddCard key={index} word={task[index]} setWord={(newWord) => {
