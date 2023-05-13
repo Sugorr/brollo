@@ -1,6 +1,6 @@
-import React from 'react'
 import VecManPC from '../resources/vectors/vec-man-pc.PNG';
 import { Link } from 'react-router-dom';
+
 
 function WelcomePage() {
     return (

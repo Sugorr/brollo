@@ -21,8 +21,8 @@ const validationSchema = yup.object({
 });
 
 function FacebookLogin() {
-    const [profile, setProfile] = useState(null);
     const navigate = useNavigate();
+    const [profile, setProfile] = useState(null);
 
     useEffect(() => { }, []);
     const formik = useFormik({
@@ -41,45 +41,39 @@ function FacebookLogin() {
                 password: values.password,
                 birthday: values.birthday,
             }).then((response) => {
-                console.log(response);
-                navigate('/login');
+                const { data } = response;
+                console.log(data.token);
+                localStorage.setItem('userToken', data.token);
             }).catch((err) => {
                 console.log(err);
             });
         }
     });
 
-    const handleResolve = (response, data) => {
-        console.log(response.data);
-        navigate('/WelcomePage');
-    }
-
-    const handleReject = (err) => {
-        console.log(err);
-    }
-
-    // const showProfile = (data) => [
-    //     setProfile(data)
-    // ]
-
     return (
         <>
             <div className='brollo-fb'>
                 {!profile ? <LoginSocialFacebook
                     appId="630216948536391"
-                    onResolve={handleResolve}
-                    onReject={handleReject}
+                    onResolve={(response) => {
+                        console.log(response);
+                        setProfile(response.data);
+                        navigate('/welcomePage')
+                    }}
+                    onReject={(error) => {
+                        console.log(error);
+                    }}
                     onSubmit={formik.handleSubmit}
                     onChange={formik.handleChange}
                     value={formik.values.data}
                 >
                     <FacebookLoginButton />
                 </LoginSocialFacebook> : ""}
-
                 {profile ? <div>
-                    <h1>{profile.name}</h1>
+                    <h1>Hi, <br />{profile.name} Welcome to Brollo</h1>
                     <img className='rounded-circle' src={profile.picture.data.url} alt='profile' />
                 </div> : ""}
+
             </div>
         </>
     );
