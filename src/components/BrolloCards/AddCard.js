@@ -1,6 +1,6 @@
 import "./AddCard.css";
 import React, { useState } from 'react';
-function AddCard({ word, setWord }) {
+function AddCard({ word, setWord, onDelete }) {
     const [editing, setEditing] = useState(false);
     const handleInputChange = (event) => {
         setWord(event.target.value);
@@ -22,10 +22,13 @@ function AddCard({ word, setWord }) {
           event.target.parentNode.removeChild(event.target);
         }
     };
+    const handleDeleteClick = () => {
+        onDelete();
+    };
     return (
         <>
-            <div id="Add-Card-Section" draggable onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
-                <div className="Add-Card-Container">
+            <div id="Add-Card-Section">
+                <div className="Add-Card-Container" draggable onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
                     <div className="brollo-card">
                         {editing ? (
                             <input type="text" value={word} onChange={handleInputChange} 
@@ -33,6 +36,7 @@ function AddCard({ word, setWord }) {
                         ) : (
                             <p className="Handle-Edit-Word" onClick={handleEditClick}>{word}</p>
                         )}
+                        <i className="fa-solid fa-trash" onClick={handleDeleteClick}></i>
                     </div>
                 </div>
             </div>

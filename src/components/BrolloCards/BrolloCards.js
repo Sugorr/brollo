@@ -26,7 +26,6 @@ const BrolloCards = () => {
             addCards();
         }
     };
-    const isAddDisabled = newTitle.trim() === "" || newTitle.length < 3;
     return (
         <>
             <div id="Brollo-Cards-Section">
@@ -39,7 +38,6 @@ const BrolloCards = () => {
                             <input type="text" value={newTitle} 
                             onChange={handleTitleChange} onKeyPress={handleKeyPress}
                             placeholder="Enter title" />
-                            <button onClick={addCards} disabled={isAddDisabled}>Add card list</button>
                         </p>
                         <p onClick={removeCards} className="Remove-List">Remove card list</p>
                     </div>

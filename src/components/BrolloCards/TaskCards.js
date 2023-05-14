@@ -26,13 +26,13 @@ function TaskCards({ title }) {
                     <div className="Task-Cards-Header">
                         <p>{title}</p>
                     </div>
-                    <div className="Task-Cards-Content">
+                    <div className="Task-Cards-Content" style={{ overflowY: 'scroll', maxHeight: '500px' }}>
                         {task.map((_, index) => (
                             <AddCard key={index} word={task[index]} setWord={(newWord) => {
                                 const newTask = [...task];
                                 newTask[index] = newWord;
                                 setTask(newTask);
-                            }}/>
+                            }}onDelete={() => removeTask(index)}/>
                         ))}
                     </div>
                     <div className="Add-Remove-Task">
@@ -40,9 +40,6 @@ function TaskCards({ title }) {
                             <p onClick={addTask} className="Add-Card">
                                 <i class="fa-solid fa-plus"></i>Add a card
                             </p>
-                        </div>
-                        <div className="Remove-Task">
-                            <p className="Remove-Card" onClick={removeTask}>Remove</p>
                         </div>
                     </div>
                 </div>
