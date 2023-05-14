@@ -28,7 +28,7 @@ function Navbar() {
                                 text-secondary">Plans</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/plans" className="Nav-Resources nav-item text-decoration-none 
+                                <Link to="/" className="Nav-Resources nav-item text-decoration-none 
                                 text-secondary">Resources</Link>
                             </li>
                             <div className="Login-Get-Brollo">
