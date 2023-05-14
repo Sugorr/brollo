@@ -37,9 +37,9 @@
 #Task-Cards-Section .Task-Cards-Content {
     background-color: #EBECF0;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     position: relative;
-    bottom: 35px;
+    bottom: 36.50px;
 }
 #Task-Cards-Section .Add-Remove-Task {
     display: flex;
@@ -49,12 +49,20 @@
 }
 #Task-Cards-Section .Add-Task {
     cursor: pointer;
-    color: ghostwhite;
+    color: black;
     font-size: 18px;
     font-weight: 500;
+    background-color: #EBECF0;
+    height: 30px;
+    width: 310px;
+    position: relative;
+    bottom: 12px;
+}
+#Task-Cards-Section .Add-Task p {
+    margin-left: 10px;
 }
 #Task-Cards-Section .fa-plus {
     font-size: 18px;
-    color: ghostwhite;
+    color: black;
 }
 

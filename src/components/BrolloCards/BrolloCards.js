@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./BrolloCards.css";
 import TaskCards from "./TaskCards";
 const BrolloCards = () => {
-    const [cards, setCards] = useState(["PlusCards"]);
+    const [cards, setCards] = useState(() => {
+        const savedCards = JSON.parse(localStorage.getItem('cards'));
+        return savedCards || ["PlusCards"];
+    });
     const [newTitle, setNewTitle] = useState("");
     const addCards = () => {
         if (newTitle.trim() !== "") {
@@ -26,6 +29,9 @@ const BrolloCards = () => {
             addCards();
         }
     };
+    useEffect(() => {
+        localStorage.setItem('cards', JSON.stringify(cards));
+    }, [cards]);
     return (
         <>
             <div id="Brollo-Cards-Section">
