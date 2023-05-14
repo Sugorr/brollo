@@ -30,13 +30,13 @@ function AddCard({ word, setWord, onDelete }) {
             <div id="Add-Card-Section">
                 <div className="Add-Card-Container" draggable onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
                     <div className="brollo-card">
+                        <i className="fa-solid fa-trash" onClick={handleDeleteClick}></i>
                         {editing ? (
                             <input type="text" value={word} onChange={handleInputChange} 
                             onKeyDown={handleKeyDown} autoFocus />
                         ) : (
                             <p className="Handle-Edit-Word" onClick={handleEditClick}>{word}</p>
                         )}
-                        <i className="fa-solid fa-trash" onClick={handleDeleteClick}></i>
                     </div>
                 </div>
             </div>

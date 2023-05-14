@@ -14,6 +14,23 @@
     z-index: 10;
     border-radius: 10px;
 }
+#Task-Cards-Section .Task-Cards-Header input[type="text"] {
+    height: 50px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.50rem;
+    font-weight: 500;
+    background-color: transparent;
+    transition: border-bottom 0.5s ease;
+}
+#Task-Cards-Section .Task-Cards-Header input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid #3E89F9;
+}
 #Task-Cards-Section .Task-Cards-Header p {
     margin-left: 8px;
 }

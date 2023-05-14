@@ -18,8 +18,17 @@
     margin-left: 22px;
     margin-top: 30px;
 }
-#Brollo-Cards-Section .Add-Another-List input {
+#Brollo-Cards-Section .Add-Another-List input[type="text"] {
     height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+#Brollo-Cards-Section .Add-Another-List input[type="text"]:focus {
+    border-bottom: 2px solid #6b9ce8;
+    outline: none;
 }
 #Brollo-Cards-Section .Remove-List {
     margin-top: 30px;

@@ -37,7 +37,7 @@ const BrolloCards = () => {
                         <p className="Add-Another-List">
                             <input type="text" value={newTitle} 
                             onChange={handleTitleChange} onKeyPress={handleKeyPress}
-                            placeholder="Enter title" />
+                            placeholder="Add another list" />
                         </p>
                         <p onClick={removeCards} className="Remove-List">Remove card list</p>
                     </div>

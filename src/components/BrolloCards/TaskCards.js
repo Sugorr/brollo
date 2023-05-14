@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "./TaskCards.css";
 import AddCard from "./AddCard";
-function TaskCards({ title }) {
+function TaskCards(props) {
     const [task, setTask] = useState(["Add a card"]);
+    const [editingTitle, setEditingTitle] = useState(false);
+    const [title, setTitle] = useState(props.title);
     const addTask = () => {
         setTask([...task, `Add a card ${task.length + 1}`]);
     };
@@ -19,12 +21,31 @@ function TaskCards({ title }) {
         const data = JSON.parse(event.dataTransfer.getData("text/plain"));
         setTask([...task, data.word]);
     };
+    const handleTitleInputChange = (event) => {
+        setTitle(event.target.value);
+    };
+    const handleTitleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            setEditingTitle(false);
+        }
+    };
+    const handleTitleClick = () => {
+        setEditingTitle(true);
+    };
+    const handleTitleBlur = () => {
+        setEditingTitle(false);
+    };
     return (
         <>
             <div id="Task-Cards-Section" onDragOver={handleDragOver} onDrop={handleDrop}>
                 <div className="Task-Cards-Container">
                     <div className="Task-Cards-Header">
-                        <p>{title}</p>
+                        {editingTitle ? (
+                            <input type="text" value={title} onChange={handleTitleInputChange} 
+                            onKeyDown={handleTitleKeyDown} onBlur={handleTitleBlur} autoFocus />
+                        ) : (
+                            <p onClick={handleTitleClick}>{title}</p>
+                        )}
                     </div>
                     <div className="Task-Cards-Content" style={{ overflowY: 'scroll', maxHeight: '500px' }}>
                         {task.map((_, index) => (
